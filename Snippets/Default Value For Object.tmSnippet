@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>$1 = $1 || $2$0</string>
+	<string>${1:variable} ||= ${2:default}</string>
 	<key>name</key>
 	<string>Default Value For Object</string>
 	<key>scope</key>
